@@ -16,6 +16,5 @@ layoutparser
 git+https://github.com/facebookresearch/detectron2.git@v0.4#egg=detectron2
 funcy
 torchvision
-detectron2 -f \https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
 label_studio_ml
 
