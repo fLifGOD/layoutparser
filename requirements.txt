@@ -12,10 +12,11 @@ itsdangerous==2.0.1
 werkzeug==2.0.2
 redis<4.6.0
 rq<1.14
-layoutparser
+torch
+torchvision
 git+https://github.com/facebookresearch/detectron2.git@v0.4#egg=detectron2
 funcy
-torchvision
+layoutparser
 label_studio_ml
-torch
+
 
