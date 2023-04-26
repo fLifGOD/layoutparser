@@ -15,3 +15,4 @@ rq<1.14
 layoutparser
 git+https://github.com/facebookresearch/detectron2.git@v0.4#egg=detectron2
 funcy
+detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.9/index.html
