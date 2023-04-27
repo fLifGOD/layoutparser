@@ -15,4 +15,5 @@ rq<1.14
 funcy
 layoutparser
 label_studio_ml
+streamlit
 
