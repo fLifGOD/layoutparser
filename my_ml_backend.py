@@ -7,7 +7,7 @@ class DocumentLayout(LabelStudioMLBase):
     def __init__(self, **kwargs):
 
 
-        super(DocumentLayout, self).__init__(**kwargs)
+#         super(DocumentLayout, self).__init__(**kwargs)
         from_name, schema = list(self.parsed_label_config.items())[0]
         self.from_name = from_name
         self.to_name = schema['to_name'][0]
