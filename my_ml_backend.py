@@ -14,10 +14,10 @@ class DocumentLayout(LabelStudioMLBase):
         self.labels = schema['labels']
         
         custom_label_map = {0: "column",1:"details",2:"heading" ,3:"image",4:"para"}
-        self.model = lp.Detectron2LayoutModel("/content/drive/MyDrive/lp_model_24_04/lp_model_24_04/config.yaml",
-                                  "/content/drive/MyDrive/lp_model_24_04/lp_model_24_04/model_final 24_04.pth",
-                                  extra_config=["MODEL.ROI_HEADS.SCORE_THRESH_TEST", 0.60],
-                                label_map=custom_label_map)
+#         self.model = lp.Detectron2LayoutModel("/content/drive/MyDrive/lp_model_24_04/lp_model_24_04/config.yaml",
+#                                   "/content/drive/MyDrive/lp_model_24_04/lp_model_24_04/model_final 24_04.pth",
+#                                   extra_config=["MODEL.ROI_HEADS.SCORE_THRESH_TEST", 0.60],
+#                                 label_map=custom_label_map)
         # self.model = ImageClassifier(resources['num_classes'])
         # self.model.load(resources['model_path'])
         # self.labels = resources['labels']
