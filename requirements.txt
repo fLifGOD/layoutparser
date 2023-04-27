@@ -12,12 +12,8 @@ itsdangerous==2.0.1
 werkzeug==2.0.2
 redis<4.6.0
 rq<1.14
-torchvision
--f https://data.pyg.org/whl/torch-1.13.0+cpu.html
-torch-scatter
 funcy
 layoutparser
 label_studio_ml
-git+https://github.com/facebookresearch/detectron2.git@v0.4#egg=detectron2
-
+streamlib
 
